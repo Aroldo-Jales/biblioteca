@@ -1,0 +1,149 @@
+.box{
+    background-color: #ecf0f1;
+    border:3px solid #222f3e;
+    border-radius: 30px;
+    position: absolute;
+    height: 80%;
+    width: 710px;
+    padding: 40px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h1{
+    position: relative;
+    font-family: 'Arimo', sans-serif;
+    left: 10%;
+    float: left;
+    color: #222f3e;
+    font-weight: 1000;
+    font-size: 2rem;
+}
+
+label{
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #222f3e;
+    font-size: 1.5rem;
+}
+
+
+.box input[type="text"]{
+    margin:10px;
+    height: 25px;
+    width: 500px;
+    border-color: #1abc9c;
+    background: white;
+    border-radius: 5px;
+}
+
+.box input[type="city"]{
+    margin:10px;
+    height: 25px;
+    width: 285px;
+    border-color: #1abc9c;
+    background: white;
+    border-radius: 5px;
+}
+
+.box input[type="email"]{
+    margin:10px;
+    height: 25px;
+    width: 323px;
+    border-color: #1abc9c;
+    background: white;
+    border-radius: 5px;
+}
+
+
+.form-control{
+    margin:10px;
+    height: 30px;
+    width: 200px;
+    border-color: #1abc9c;
+    background: white;
+    border-radius: 5px;
+    
+}
+
+#telefone {
+    width: 205px;
+}
+
+#bairro, #cep{
+    width: 258px;
+}
+
+#logradouro {
+    width: 547px;
+}
+
+#cpf{
+    width: 200px;
+}
+#data-nasc{
+    margin:10px;
+    height: 30px;
+    width: 200px;
+    border-color: #1abc9c;
+    background: white;
+    border-radius: 5px;
+}
+
+.textarea:focus, input:focus{
+    outline: none;
+}
+
+.box input[type="submit"], #confirmar{
+    color: white;
+    background-color: #222f3e;
+    position: relative;
+    float: right;
+    top: 45%;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 1rem;
+    transition: 1s;
+    margin:20px auto;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 10px;
+}
+
+.box input[type="submit"], #confirmar:hover{
+    color: white;
+    transition: 1s;
+    background-color: #1abc9c;
+}
+
+.box input[type="submit"], #cancelar{
+    color: white;
+    background-color: #222f3e;
+    position: relative;
+    float: left;
+    top: 45%;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 1rem;
+    transition: 1s;
+    margin:20px auto;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 10px;
+}
+
+.box input[type="submit"], #cancelar:hover{
+    color: white;
+    transition: 1s;
+    background-color: #ee5253;
+}
